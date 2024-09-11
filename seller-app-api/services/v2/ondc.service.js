@@ -123,7 +123,7 @@ class OndcService {
                         },
                         "payment": {
                             "type": "POST-FULFILLMENT",
-                            "@ondc/org/collection_amount": `${totalProductValue}`
+                           // "@ondc/org/collection_amount": `${totalProductValue}`
                         },
                         "@ondc/org/payload_details": { //TODO: This is hard coded
                             "weight": {
